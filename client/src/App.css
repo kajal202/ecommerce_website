@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: rgba(60, 59, 59, 0.097);
+}
+
+.Navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.navbar{
+  line-height: 26px;
+  border:10px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px rgb(149, 55, 55);
+  --webkit-box-shadow: 0 8px 6px -6px rgb(126, 64, 64);
+  border-bottom: 0.5px solid rgb(202, 32, 32);
+}
+
+.navbar{
+  line-height: 26px;
+
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.5px solid gray;
+}
+
+.navbar.navbar-brand{
+  font-family:'Times New Roman', Times, serif;
+}

@@ -1,0 +1,93 @@
+/* z-index: 999; */
+ 
+  .all-products h1 {
+    padding-bottom: 10px;
+    color: gray;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .all-products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .all-products .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 16rem;
+  }
+  .all-products .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+  }
+  .all-products .card-name-price button { 
+    border-radius: 0px !important;
+    margin-right: 1px;
+
+  }
+
+  .all-products .card-name-price button:hover{
+    transform: scale(0.9);
+    
+  }
+  
+  .all-products .card-price {
+    color: rgb(0, 113, 128);
+    font-weight: bold;
+  }
+  .all-products button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+   
+  }
+  
+  .all-products .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .all-products .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .all-products .card-img-top {
+    height: 180px !important;
+  }
+  /* ==================
+  filters
+  ============== */
+  .filters h4 {
+    margin-top: 100px;
+    color: gray !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+  }
+  
+  .ant-checkbox-wrapper:first-of-type {
+    margin-left: 8px;
+  }
+  
+  .ant-checkbox-wrapper {
+    margin: 2px;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 5px !important;
+    margin-left: 10px;
+  }
+  
+  .filters button {
+    background-color: black;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+  
+ .loadmore button{
+  border-radius: 5px !important;
+  width: 20% !important;
+  justify-content: center;
+  align-self: center !important;
+ } 

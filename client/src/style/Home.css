@@ -1,0 +1,75 @@
+
+  .home-page{
+    background-color: rgb(242, 244, 244);
+  }
+
+  .home-page .Navbar{
+      position: fixed;
+      width: 100%;
+      z-index: 999;
+    }
+  
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .products .card {
+    background-color: rgba(128, 128, 128, 0.097);
+    width: 18rem;
+  }
+  .products .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  .products .card-name-price button {
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+  }
+
+  .products .card-name-price button:hover{
+    transform: scale(0.9);
+    
+    
+  }
+  
+  .products .card-price {
+    color: rgb(0, 113, 128);
+    font-weight: bold;
+  }
+  
+  
+  .products .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .products .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .products .card-img-top {
+    height: 180px !important;
+  }
+ 
+  
+  .kids_women  button{
+    width: 90% !important;
+    transform: scale(0.9);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .home-page .All_products_button{
+     display: flex;
+     justify-content: center;
+  }
+ .home-page .All_products_button a{
+  width: 30% !important;
+  align-self: center !important;
+ }
