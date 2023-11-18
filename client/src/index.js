@@ -3,29 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
-
-import SignUp from "./components/SignUp";
-import SignIn from "./components/SignIn";
-
-import reportWebVitals from "./reportWebVitals";
-import Learn from "./components/Learn";
-import HomePage from "./components/Home";
-import CartPage from "./components/CartPage";
-import PageNotFound from "./components/pageNotFound";
-import UserProducts from "./components/UserProducts";
-import ProductDetails from "./components/ProductDetails";
-import Categories from "./components/Categories";
-import CategoryProduct from "./components/CategoryProducts";
-import SearchResult from "./components/SearchResult";
-import Orders from "./user/Orders";
-import { CartProvider } from "./context/cart";
-import Profile from './user/Profile';
-import AdminDashBoard from './Admin/AdminDashBoard';
-import CreateProduct from './Admin/CreateProduct';
-import CreateCategory from './Admin/CreateCategory';
-import UpdateProduct from './Admin/UpdateProduct';
-import Products from './Admin/Products';
-import AdminOrders from './Admin/AdminOrders';
 import { LoginProvider } from "./context/LoginContext";
 
 // ReactDOM.render(
