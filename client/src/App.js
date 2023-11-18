@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import { LoginProvider } from "./context/LoginContext";
 import Footer from "./components/Footer";
 import HomePage from "./components/Home";
-import Learn from "./components/Learn";
 import UserProducts from "./components/UserProducts";
 import ProductDetails from "./components/ProductDetails";
 import Categories from "./components/Categories";
@@ -30,7 +29,6 @@ function App() {
       <Routes>
         {/* <Route path="/" element={<App />}> */}
         <Route path="/" element={<HomePage />} />
-        <Route path="/learn" element={<Learn />} />
         <Route path="/userProducts" element={<UserProducts />} />
         <Route path="/product/:slug" element={<ProductDetails />} />
         <Route path="/categories" element={<Categories />} />
