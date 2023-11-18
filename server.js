@@ -9,7 +9,7 @@ dotenv.config({ path: "./config.env" });
 app.use(cookieParser());
 app.use(express.json());
 
-app.use(express.static(path.join(__dirname, "./client/build/index.html")));
+app.use(express.static(path.join(__dirname, "./client/build")));
 
 require("./connection");
 const auth = require("./routes/auth");
